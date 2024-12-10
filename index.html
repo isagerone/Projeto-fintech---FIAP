@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Golden Wallet</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <header class="topo">
+            <div class="container-topo">
+                <h1 class="titulo-homepage">Golden Wallet</h1>
+                <nav class="menu">
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#sobre-nos">Sobre nós</a></li>
+                        <li><a href="#servicos">Nossos Serviços</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </nav>
+                <div class="menu-toggle" id="menu-toggle">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                
+            </div>
+        </header>
+        <section class="container-principal" id="home">
+            <div class="background-image"></div>
+            <div class="container-home">
+                <h1 class="inicio-home">Finanças no controle, vida tranquila</h1>
+                <p class="texto-principal">Gerencie seus gastos, monitore ganhos e planeje suas metas financeiras com praticidade e segurança.</p>
+                <button type="button" class="comecar">Comece agora </button> 
+            </div>
+        </section>
+        
+        <section class="container-secundario" id="sobre-nos">
+            <img src="img/cartao black.png" class="cartao">
+            <div class="container-sobre-nos">
+                <h2 class="bem-vindo">Bem-vindo à Golden Wallet,</h2>
+                <p class="txt-bem-vindo">Nossa aplicação simplifica a gestão financeira, 
+                    permitindo gerenciar gastos, monitorar ganhos e planejar metas financeiras com praticidade. <br>
+                  <br/>  Com ferramentas intuitivas e tecnologia avançada, oferecemos relatórios personalizados e uma experiência eficiente, 
+                    ajudando você a alcançar uma vida mais tranquila e equilibrada.</p>
+            </div>
+        </section>
+
+        <section class="container-tres" id="servicos">
+            <div class="container-servicos">
+                <h2 class="nossos-servicos">Nossos Serviços</h2>
+                <div class="icons-servicos">
+                    <ul>
+                        <li>
+                            <img src="img/receitas.png" class="receita-icon" alt="Ícone de receitas">
+                            <p>Cadastre suas receitas de forma prática e organizada.</p>
+                        </li>
+                        <li>
+                            <img src="img/gastos.png" class="receita-icon" alt="Ícone de gastos">
+                            <p>Controle seus gastos e monitore suas despesas.</p>
+                        </li>
+                        <li>
+                            <img src="img/investimentos.png" class="receita-icon" alt="Ícone de investimentos">
+                            <p>Acompanhe e gerencie seus investimentos.</p>
+                        </li>
+                        <li>
+                            <img src="img/economias.png" class="receita-icon" alt="Ícone de economias">
+                            <p>Defina metas e acompanhe suas economias.</p>
+                        </li>
+                        <li>
+                            <img src="img/assitente.png" class="receita-icon" alt="Ícone de consultoria financeira">
+                            <p>Receba suporte com consultorias financeiras.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        
+       <section class="container-quatro" id="contato">
+        <div class="container-contato">
+            <h2 class="titulo-contato">Entre em contato para saber mais!</h2>
+            <form action="#home" method="post" class="form-contato">
+                <div class="form-group">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+                </div>
+                <div class="form-group">
+                    <label for="assunto">Assunto:</label>
+                    <input type="text" id="assunto" name="assunto" placeholder="Digite o assunto" required>
+                </div>
+                <div class="form-group">
+                    <label for="mensagem">Sua solicitação:</label>
+                    <textarea id="mensagem" name="mensagem" rows="5" placeholder="Digite sua mensagem" required></textarea>
+                </div>
+                <button type="submit" class="btn-enviar">Enviar</button>
+            </form>
+        </div>
+
+       </section>
+    </body>
+
+    <footer class="footer">
+        <div class="footer-container text-center">
+            <p class="copy">&copy; 2024 Golden Wallet. Todos os direitos reservados.</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com" target="_blank" class="social-icon">
+                    <i class="bi bi-facebook" style="font-size: 30px;"></i>
+                </a>
+                <a href="https://www.twitter.com" target="_blank" class="social-icon">
+                    <i class="bi bi-twitter-x" style="font-size: 30px;"></i>
+                </a>
+                <a href="https://www.instagram.com" target="_blank" class="social-icon">
+                    <i class="bi bi-instagram" style="font-size: 30px;"></i>
+                </a>
+                <a href="https://www.linkedin.com" target="_blank" class="social-icon">
+                    <i class="bi bi-linkedin" style="font-size: 30px;"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+    
+</html>
